@@ -1,0 +1,9 @@
+---
+- hosts: localhost
+  remote_user: root
+
+  vars:
+
+  roles:
+    - oah.oah
+    - ansible-role-oah-atom
